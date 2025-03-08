@@ -25,7 +25,7 @@ module.exports.showListing = async (req, res) => {
      res.redirect("/listings");
     }
     console.log(listing);
-    res.render("Listings/show.ejs", {listing});
+    res.render("listings/show.ejs", {listing});
   };
 
 
